@@ -18,6 +18,7 @@ class UI {
                   <h6 class="temp-min-max">Min ${data.main.temp_min} || Max ${data.main.temp_max}</h6>
                   <p class="card-text "> ${data.clouds.all}% cloudy</p>
                   <div class="weather-icon"><img src="icons/unknown.png" /></div>
+                  
                   <p class="card-text "> ${data.weather[0].main}</p>
                   
               </div>
