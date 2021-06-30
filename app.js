@@ -23,4 +23,5 @@ button.addEventListener("click", () => {
 window.addEventListener("DOMContentLoaded", () => {
   const dataSaved = ui.getFromLS();
   ui.populateUI(dataSaved);
+  
 });
