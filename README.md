@@ -21,3 +21,7 @@ It allows users to check the current weather conditions in their city.
 - html, css, javascript
 - boostrap 
 - open weather map api
+
+## live site here
+
+- [weather app](https://jake-owen95.github.io/weather-app/).
