@@ -14,15 +14,21 @@ class UI {
           
           <div class="card mx-auto mt-5" style="width: 18rem;">
               <div class="card-body justify-content-center">
-                  <h5 class="card-title">${data.name}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Current Temperature: ${data.main.temp}°C.</h6>                  
-                  <p class="card-text ">Weather conditions reported: ${data.weather[0].description}</p>
+                  <h2 class="card-title">${data.name} ${data.main.temp}°C</h5>
+                  <h6 class="temp-min-max">Min ${data.main.temp_min} || Max ${data.main.temp_max}</h6>
+                  <p class="card-text "> ${data.clouds.all}% cloudy</p>
+                  <div class="weather-icon"><img src="icons/unknown.png" /></div>
+                  <p class="card-text "> ${data.weather[0].main}</p>
                   
               </div>
           </div>
           
           
           `;
+          let locationIcon = document.querySelector('.weather-icon');
+          const {icon} = data.weather[0];
+          locationIcon.innerHTML = `<img src="icons/${icon}.png">;`;
+          
     }
   
     clearUI() {
