@@ -2,7 +2,7 @@ class UI {
     constructor() {
       this.uiContainer = document.getElementById("content");
       this.city;
-      this.defaultCity = "London";
+      this.defaultCity = "London&units=metric";
     }
   
     populateUI(data) {
