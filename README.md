@@ -14,7 +14,7 @@ It allows users to check the current weather conditions in their city.
 
 - user fills in form choosing a city
 - make api request for weather in that city and get objects back
-- function runs that takes that object and popukates the ui with the data from open weather map
+- function runs that takes that object and populates ui with the relevent weather data
 
 ## technologies 
 
